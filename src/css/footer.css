@@ -1,0 +1,65 @@
+.community {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.community1 {
+    display: flex;
+    padding-top:200px;
+    padding-left: 50px;
+
+}
+
+.Grocery {
+    display: flex;
+    padding-top: 200px;
+}
+
+.company {
+    display: flex;
+    padding-top: 200px;
+    
+
+
+.community2  {
+    /* padding-top: 290px; */
+}
+.community2 li  {
+    /* padding-top: 20px; */
+}
+
+.community2 {
+    margin-top: 100px;
+}
+.community6 {
+    margin-top: 100px;
+}
+.community7 {
+    margin-top: 100px;
+}
+.community4 {
+    margin-top: 100px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .community {
+        display: block;
+        /* margin-left: 20px; */
+        font-size: 30px;
+    }
+
+    .Grocery {
+        margin-left: 40px;
+    }
+
+    .company {
+        margin-left: 40px;
+    }
+
+    
+}

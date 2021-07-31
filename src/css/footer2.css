@@ -1,0 +1,12 @@
+.footer-content {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    height: 200px;
+    font-style: normal;
+    padding-top: 50px;
+    font-weight: normal;
+    margin: 0 60px;
+    font-size: 14px;
+    color: #000000
+}

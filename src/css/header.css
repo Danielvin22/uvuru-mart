@@ -1,0 +1,80 @@
+.center {
+    display: flex;
+    list-style: none;
+    margin: 0 60px;
+    margin-top: 60px;
+    display: none;
+   
+}
+
+.center li {
+    padding-left: 5px;
+}
+
+.center span {
+    padding-left: 30px;
+}
+
+.vegetables  {
+    color: red;
+    /* width: 128px; */
+    /* height: 38px; */
+    padding: 5px 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
+    border-radius: 5px;
+
+}
+.spices:hover  {
+    color: red;
+    /* width: 50px; */
+    /* height: 38px; */
+    padding: 10px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
+    border-radius: 5px;
+    padding: 5px 5px;
+
+}
+.fruits:hover {
+    color: red;
+    /* width: 50px; */
+    /* height: 38px; */
+    background: #FFFFFF;
+    border-radius:5px;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1)
+    
+   
+
+}
+.tubers:hover {
+    color: red;
+    /* width: 20px; */
+    /* height: 38px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
+    padding: 5px 5px;
+    border-radius: 5px;
+
+}
+.palm :hover {
+    color: red;
+    width: 20px;
+    /* height: 38px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
+    padding: 20px 20px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:720px) {
+    .center {
+        width: 100px;
+    }
+}
+
+
+
+
