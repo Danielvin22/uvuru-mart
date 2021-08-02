@@ -1,56 +1,102 @@
 .community {
     display: flex;
     justify-content: space-between;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+color: #8588A3;
     list-style: none;
+    
+}
+
+.footer-backgroud {
+    background: #fff;
+    height: 300px;
+    /* width: 1000px; */
+    margin-top: 150px;
+    border: 1px solid #F5F7FD;
 }
 
 .community1 {
     display: flex;
-    padding-top:200px;
-    padding-left: 50px;
+    align-items: center;
+
+
 
 }
+
+  
 
 .Grocery {
     display: flex;
-    padding-top: 200px;
+    align-items: center;
+  
 }
+
 
 .company {
     display: flex;
-    padding-top: 200px;
-    
+    align-items: center;
 
-
-.community2  {
-    /* padding-top: 290px; */
-}
-.community2 li  {
-    /* padding-top: 20px; */
 }
 
 .community2 {
-    margin-top: 100px;
+    margin-top: 90px;
+}
+.community3 {
+    margin-left: 60px;
 }
 .community6 {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .community7 {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .community4 {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-right: 110px;
 }
 
+.kkk {
+     margin-top: 70px; 
+}
+.kkk li {
+     padding-top: 10px; 
+}
+.community2 li {
+    padding-top: 10px;
+}
+.community6 li{
+    padding-top: 10px;
+   margin-left: 30px;
+}
 
-
-
+.community7 li {
+    margin-right: 20px;
+    padding-top: 10px;
+}
+ 
 
 @media (max-width: 768px) {
     .community {
         display: block;
-        /* margin-left: 20px; */
-        font-size: 30px;
+        font-size:30px;
+       
+    }
+    .footer-backgroud {
+        background: none;
+       
+        border: none; 
+        margin-top: 400px;
+    }
+    .last {
+        margin-top: 60px;
+
     }
 
     .Grocery {
@@ -58,8 +104,30 @@
     }
 
     .company {
+
         margin-left: 40px;
     }
+    .kkk li {
+        padding-top: 20px; 
+   }
+   .community2 li {
+       padding-top: 20px;
+   }
+   .community4 li {
+       margin-left: 100px;
+   }
+   .community6 li{
+       padding-top: 25px;
+       padding-left: 100px;
+   }
+
+   .nit li {
+       margin-left: 100;
+   }
+   
+   .community7 li {
+       padding-top: 25px;
+   }
 
     
 }

@@ -10,3 +10,10 @@
     font-size: 14px;
     color: #000000
 }
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        font-size: 30px;
+    }
+}
