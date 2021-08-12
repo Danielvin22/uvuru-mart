@@ -1,86 +1,407 @@
-.card1 {
+.cards {
+    background: #fff;
     width: 280px;
     height: 290px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.1);
-    margin: 10px 10px;
-    margin-top: 40px;
-    border-radius: 5px
-
-
-}
-.fresh {
-    padding-left: 20px;
-    margin: 10px 0;
-    font-family: inter;
-}
-
- 
-.avilable {
-    border-top: 1px solid #f2f6fe;
-    margin-top: 10px;
-    padding-left: 20px;
-    padding-top: 7px;
-    font-family: inter;
-
-}
-.star {
-   padding-left: 20px;
-}
-
-.basket {
-    margin-left: 10px;
-}
-
-.card4 {
-    display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
-    margin: 0 60px;
-    
-    
-
-}.mins {
-   position: relative;
-    width: 100px;
-    height: 32px;
-    top: -250px;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-left: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 99px;
-    font-family: inter;
-  
+    margin-top: 600px;
+    margin: 10px 10px;
 }
 
 
+.card-img svg {
+    width: 280px;
+    /* margin-top: 40px; */
+}
 
-@media screen and (max-width:768px) {
-    .card1 {
-        width: 600px;
-        height: 290px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 2px 1px rgba(221, 221, 221, 0.1);
-        margin: 10px 10px;
-        margin-top: 60px;
-        border-radius: 5px
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+/* mins */
+.mins {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -170px;
+    left: 20px;
+    width: 110px;
+    color: #fff;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 99px;
+}
+
+.mins svg {
+    margin-left: -120px;
+    position: absolute;
+    top: 8px;
+}
+
+.mins p {
+    padding-left: 30px;
+    padding-top: 10px;
     
+   
+}
+
+/* fresh */
+.fresh {
+    margin-top: -30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: inter;
+}
+
+/* star */
+.star {
+    margin-left: 30px;
+   
+}
+
+.star1 svg {
+    width: 12px;
+    height: 13px;
+   
+
+}
+
+
+/* basket */
+.basket {
+    margin-left: 20px;
+}
+.basket svg {
+    height: 18px;
+    width: 15px;
+    margin-top: 10px;
     
+}
+
+/* avilable */
+.avilable {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: inter;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        width: 2000px;
+        height: 1900px; 
+        margin-left: 100px;
+    }
+    .card-img svg {
+        width: 2000px;
+
+    }
+    .fresh {
+        font-size: 120px;
+        padding-top: 10px;
+       
+    }
+
+    .basket svg {
+        height: 80px;
+        width: 60px;
+        /* margin-top: 10px; */
+        
+    }
+
+    .star1 svg {
+        width: 60px;
+        height: 80px;
+       
+    
+    }
+    .star1  {
+       font-size: 90px;
+    
+    }
+    .basket {
+        font-size: 90px;
+    }
+
+    .avilable {
+        font-size: 120px;
+        padding-top: 50px;
+
+
     }
     .mins {
-       top: 30px;
-       font-size: 50;
+       position: relative;
+       top: -900px;
+       width: 300px;
+       height: 100px;
     }
 
-    .card1 {
-        margin-top: 300px;
+    .mins svg {
+        margin-left: -70px;
+        width: 200px;
+        height: 50px;
+       
     }
 
+    .mins p {
+        font-size:40px;
+        margin-left: 50px;
+        
+    }
+
+    @media (max-width:500px) {
+        .cards {
+            width: 1700px;
+            height: 1600px; 
+            margin-left: 150px;
+        }
+        .card-img svg {
+            width:1700px;
     
+        }
+        .fresh {
+            font-size: 110px;
+           
+        }
+    
+        .basket svg {
+            height: 60px;
+            width: 60px;
+            /* margin-top: 10px; */
+            
+        }
+    
+        .star1 svg {
+            width: 70px;
+            height:70px;
+           
+        
+        }
+        .star1  {
+           font-size: 100px;
+        
+        }
+        .basket {
+            font-size: 100px;
+        }
+    
+        .avilable {
+            font-size: 110px;
+            /* margin-top: 20px; */
+    
+    
+        }
+        .mins {
+           position: relative;
+           width: 400px;
+           height: 150px;
+           top: -900px;
+        }
+    
+        .mins svg {
+            left: 120px;
+            /* background: red; */
+            width: 70px;
+            padding-top: 40px;
+           
+        }
+    
+        .mins p {
+            margin-left: 40px;
+            font-size: 60px;
+            padding-top: 30px;
+            
+        }
+        
+    @media (max-width:411px) {
+        .cards {
+            width: 1400px;
+            height: 1400px; 
+            margin-left: 150px;
+        }
+        .card-img svg {
+            width:1400px;
+    
+        }
+        .fresh {
+            font-size: 80px;
+           
+        }
+    
+        .basket svg {
+            height: 60px;
+            width: 60px;
+            /* margin-top: 10px; */
+            
+        }
+    
+        .star1 svg {
+            width: 50px;
+            height:50px;
+           
+        
+        }
+        .star1  {
+           font-size: 80px;
+        
+        }
+        .basket {
+            font-size: 90px;
+        }
+    
+        .avilable {
+            font-size: 90px;
+            /* margin-top: 20px; */
+    
+    
+        }
+        .mins {
+           position: relative;
+           width: 400px;
+           height: 150px;
+           top: -800px;
+        }
+    
+        .mins svg {
+            left: 80px;
+            /* background: red; */
+            width: 70px;
+            padding-top: 40px;
+           
+        }
+    
+        .mins p {
+            margin-left: 40px;
+            font-size: 60px;
+            padding-top: 30px;
+            
+        }
 
+        @media (max-width:375px) {
+            .cards {
+                width: 1400px;
+                height: 1250px; 
+                /* margin-left: 30px; */
+            }
+            .card-img svg {
+                width: 1250px;
+        
+            }
+            .fresh {
+                font-size:90px;
+               
+            }
+        
+            .basket svg {
+                height: 60px;
+                width: 60px;
+                /* margin-top: 10px; */
+                
+            }
+        
+            .star1 svg {
+                width: 60px;
+                height: 60px;
+               
+            
+            }
+            .star1  {
+               font-size: 80px;
+            
+            }
+            .basket {
+                font-size: 80px;
+            }
+        
+            .avilable {
+                font-size: 80px;
+
+        
+            }
+            .mins {
+               position: relative;
+               height:50px ;
+               width: 300px;
+               top: -700px;
+               /* margin-bottom: 30px; */
+            }
+        
+            .mins svg {
+                left: 100px;
+                width: 30px;  
+                padding-top: 2px;
+
+            }
+            .mins p {
+                font-size: 30px;
+                padding-top: 10px;
+            }
+            
+        }
+    }
 }
+        @media (max-width:360px) {
+            .cards {
+                width: 1200px;
+                height: 1200px; 
+                /* margin-left: 30px; */
+            }
+            .card-img svg {
+                width: 1200px;
+        
+            }
+            .fresh {
+                font-size:90px;
+               
+            }
+        
+            .basket svg {
+                height: 60px;
+                width: 60px;
+                /* margin-top: 10px; */
+                
+            }
+        
+            .star1 svg {
+                width: 60px;
+                height: 60px;
+               
+            
+            }
+            .star1  {
+               font-size: 80px;
+            
+            }
+            .basket {
+                font-size: 80px;
+            }
+        
+            .avilable {
+                font-size: 80px;
+                /* margin-top: 20px; */
+        
+        
+            }
+            .mins {
+               position: relative;
+               height:30px ;
+               width: 3 00px;
+               top: -200px;
+            }
+        
+            .mins svg {
+                left:100px;
+                /* background: red; */
+                width: 30px;
+                margin-top: 5px;
+               
+            }
+        
+            .mins p {
+            
+            }
 
-
-
-
+        }
+    }
+}

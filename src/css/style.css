@@ -5,147 +5,508 @@
 @import url('./card.css');
 @import url('./footer.css');
 @import url('./footer2.css');
-*{
-    margin: 0px;
-    padding: 0px;
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-html, 
-body {
+
+
+html,
+body{ 
+
     background: #E5E5E5;
-    overflow-x: hidden;
-    overflow-y: none;
     text-rendering: auto;
     text-size-adjust: 100%;
     min-width: 300px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden;  */
+    scroll-behavior: smooth; 
 }
+
 
 .container {
-    /* width: 1100px; */
-    margin: 0 auto;
+   max-width: 1200px;
+    margin:0 auto;
 }
 
-.navbar2 {
+#navbar {
+    background: #fff;
+    height: 70px;
+}
+
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    width: 1300px;
-    /* overflow-y: none; */
-    /* margin: 0px 60px; */
-    position:sticky;
-   
-   
-        
-}
-.logo {
-    width: 50px;
-    height: 50px;
-    
-}
-.logo2 {
-    width: 40px;
-    height: 40px;
-    
-}
-.navbar2 span {
-    margin-top: 20px;
 }
 
-.logo2 {
-    margin-right: 30px;
-}
 
-.logo {
-    margin-left: 30px;
-}
-
-.navbar-background {
-    background: #fff;
-    /* position: fixed; */
-}
-
-ul {
+.navbar ul {
     display: flex;
     list-style: none;
-    margin-right: 350px;
-    font-family: roboto;
-    
+    margin-right: 300px;
 }
 
-
-ul li {
-    padding: 20px 20px;
-}
-
-.rest {
-    margin-left: 20px;
+.navbar ul li {
+    margin: 20px 17px;
 }
 
 .grocery {
-    color: red;
-    width: 130px;
-    background: rgba(255, 71, 62, 0.04);
+    padding-right: 10px;
+    padding: 25px;
+    background: rgba(255, 71, 62, 0.07);
+    position: relative;
+    top: -18px;
 }
 
 .rest:hover {
-    background:rgba(255, 71, 62, 0.04); 
-    /* width: 140px; */
-   
+    background: red;
+    position: relative;
+    top: -18px;
+    padding-top: 20px;
 }
 
 .bar:hover {
-    background: rgba(255, 71, 62, 0.04);
-    /* width: 50px; */
-
+    background: red;
+    position: relative;
+    top: -18px;
+    padding-top: 20px;
 }
 
 .stores:hover {
-    background: rgba(255, 71, 62, 0.04);
-    /* width: 60px; */
-
+    background: red;
+    position: relative;
+    top: -18px;
+    padding-top: 20px;
 }
 
-@media screen and (max-width:768px) {
-    
-.navbar2 {
-    display: flex;
-    justify-content: space-between;
-    width: 770px;
-   
+
+.logo svg{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
 }
 
-ul {
-    display:block;
-    list-style: none;
-    text-align: center;
-    align-items: center;
+.logo3 svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.logo2 svg {
+    width: 40px;
+    position: relative;
+    left: 700px;
+    top: 20px;
+    display: none;  
+} 
+
+/* close-button */
+.close-button svg {
+    position: relative;
+    left: 670px;
+    top: 25px;
+    width: 25px;
+    height: 30px;
     display: none;
-    font-family: roboto;
-    width: 183px;
-    height: 220px;
-    padding-top: 10px;
-    /* margin-left: 600px; */
-    background: #FFFFFF;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 5px
    
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        height: 300px;
+        width: 2300px;
+    }
+
+    .grocery {
+        font-size: 60px;
+        width: 100px;
+    }
     
+
+    .rest {
+        font-size:60px;
+    }
+    .bar {
+        font-size: 60px;
+    }
+    .stores {
+        font-size: 60px;
+    }
+    
+    .navbar ul {
+        display: block;
+        background: white;
+        margin-top: 160px;
+        width: 2000px;
+        height: 700px;
+        text-align: center;
+        position: relative;
+        right: -250px;
+        z-index: 999;
+        display: none;
+    } 
+
+    .navbar ul li {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 80px;
+     
+     
+    }    
+
+    .grocery {
+     padding: 0px;
+     width: 400px;
+    }
+
+    .logo svg{
+        width: 650px;
+        height: 300px;
+        position: relative;
+        left: -700px;
+       
+    }
+
+    .logo3 svg{
+       margin-left: -250px;
+       width: 300px;
+       height: 200px;
+
+    }
+
+    /* burger */
+    .logo2 svg {
+        width: 200px;
+        height: 150px;
+        position: relative;
+        left: 550px;
+        top: 40px;
+        display: block;  
+    } 
+
+    /* close-button */
+    .close-button svg {
+        position: relative;
+        left: 300px;
+        top: -120px;
+        width: 200px;
+        height: 150px;
+        /* display: block; */
+        display: none;
+        
+    }
+
+    @media screen and (max-width: 500px) {
+        #navbar {
+            height: 220px;
+            width:2000px;
+        }
+
+        .navbar ul {
+            width: 4000px;
+            height: 800px;
+            position: relative;
+            right: 80px;
+            margin-bottom:2600px;
+            display: none;
+           
+        } 
+    
+        .navbar ul li {
+          text-align: center;
+          width: 700px;
+         
+        }    
+        .grocery {
+            font-size: 80px;
+            margin-top: 80px;
+        }
+    
+        .rest {
+            font-size:80px;
+        }
+        .bar {
+            font-size: 80px;
+        }
+        .stores {
+            font-size: 80px;
+        }
+    
+
+        .logo svg{
+            width: 600px;
+            height: 200px;
+            position: relative;
+            left: -500px;
+           
+        }
+    
+        .logo3 svg{
+           margin-left: -100px;
+           width: 300px;
+           height: 150px;
+    
+        }
+    
+        /* burger */
+        .logo2 svg {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 500px;
+            top: 40px;
+            display: block;  
+        } 
+    
+        /* close-button */
+        .close-button svg {
+            position: relative;
+            left: 380px;
+            top: -120px;
+            width: 300px;
+            height: 100px;
+            display: block;
+            display: none;
+          
+        }
+
+
+    }
+
+
+    @media screen and (max-width: 411px) {
+        #navbar {
+            height: 220px;
+            width: 1650px;
+        }
+
+        .navbar ul {
+            width: 4000px;
+            height: 800px;
+            position: relative;
+            right: 300px;
+            margin-bottom:2600px;
+            display: none;
+        } 
+    
+        .navbar ul li {
+          text-align: center;
+          width: 700px;
+         
+        }    
+        .grocery {
+            font-size: 80px;
+            margin-top: 80px;
+        }
+    
+        .rest {
+            font-size:80px;
+        }
+        .bar {
+            font-size: 80px;
+        }
+        .stores {
+            font-size: 80px;
+        }
+    
+
+        .logo svg{
+            width: 600px;
+            height: 200px;
+            position: relative;
+            left: -380px;
+           
+        }
+    
+        .logo3 svg{
+           margin-left: -350px;
+           width: 300px;
+           height: 150px;
+    
+        }
+    
+        /* burger */
+        .logo2 svg {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 350px;
+            top: 40px;
+            display: block;  
+            
+        } 
+    
+        /* close-button */
+        .close-button svg {
+            position: relative;
+            left: 550px;
+            top: -120px;
+            width: 300px;
+            height: 100px;
+            display: block;
+            
+        }
+
+    }
+ 
+    }
+    @media screen and (max-width:375px) {
+        #navbar {
+            height: 220px;
+            width: 1550px;
+        }
+
+        .navbar ul {
+            width: 4000px;
+            height: 800px;
+            position: relative;
+            right: 300px;
+            margin-bottom:2600px;
+            display: none;
+        } 
+    
+        .navbar ul li {
+          text-align: center;
+          width: 700px;
+         
+        }    
+        .grocery {
+            font-size: 80px;
+            margin-top: 80px;
+        }
+    
+        .rest {
+            font-size:80px;
+        }
+        .bar {
+            font-size: 80px;
+        }
+        .stores {
+            font-size: 80px;
+        }
+    
+
+        .logo svg{
+            width: 500px;
+            height: 150px;
+            position: relative;
+            left: -280px;
+           
+        }
+    
+        .logo3 svg{
+           margin-left: -400px;
+           width: 200px;
+           height: 130px;
+    
+        }
+    
+        /* burger */
+        .logo2 svg {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 250px;
+            top: 40px;
+            display: block;  
+        } 
+    
+        /* close-button */
+        .close-button svg {
+            position: relative;
+            left: 550px;
+            top: -120px;
+            width: 300px;
+            height: 100px;
+            display: block;
+            display: none;
+           
+        }
+
+
+    }
+
+    @media screen and (max-width:360px) {
+        #navbar {
+            height: 190px;
+            width: 1550px;
+        }
+
+        .navbar ul {
+            width: 4000px;
+            height: 800px;
+            position: relative;
+            right: 300px;
+            margin-bottom:2600px;
+            display: none;
+        } 
+    
+        .navbar ul li {
+          text-align: center;
+          width: 700px;
+         
+        }    
+        .grocery {
+            font-size: 80px;
+            margin-top: 80px;
+        }
+    
+        .rest {
+            font-size:80px;
+        }
+        .bar {
+            font-size: 80px;
+        }
+        .stores {
+            font-size: 80px;
+        }
+    
+
+        .logo svg{
+            width: 500px;
+            height: 150px;
+            position: relative;
+            left: -280px;
+           
+        }
+    
+        .logo3 svg{
+           margin-left: -400px;
+           width: 200px;
+           height: 130px;
+    
+        }
+    
+        /* burger */
+        .logo2 svg {
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 250px;
+            top: 40px;
+            display: block;  
+        } 
+    
+        /* close-button */
+        .close-button svg {
+            position: relative;
+            left: 550px;
+            top: -120px;
+            width: 300px;
+            height: 100px;
+            display: block;
+            display: none;
+           
+        }
+
+
+    }
+
 }
 
 
 
-
-.navbar-background {
-    background: #fff;
-    width: 100%;
-}
-.logo {
-    margin-left: 30px;
-   
-
-}
-
-.logo2 {
-    /* padding-right: 100px; */
-}   
-}

@@ -1,133 +1,303 @@
 .community {
     display: flex;
     justify-content: space-between;
+}
+
+.flex-item1 {
+    display: flex;
+    list-style: none;
+   align-items: center;  
+   
+
+}
+.flex-item2 {
+    display: flex;
+    list-style: none;
+   align-items: center;
+  
+}
+.flex-item3 {
+    display: flex;
+    list-style: none;
+   align-items: center;
+   margin-right: 20px;
+  
+}
+.footer-backgroud {
+    background: #ffffff;
+    height: 350px;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+.first h1 {
+    margin: 30px 0;
+}
+
+.last h1 {
+    margin: 30px 0;
+}
+
+
+
+.com {
+    margin-top:50px;
+    margin-right: 100px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-
-color: #8588A3;
-    list-style: none;
-    
+    color: #8588A3
 }
 
-.footer-backgroud {
-    background: #fff;
-    height: 300px;
-    /* width: 1000px; */
-    margin-top: 150px;
-    border: 1px solid #F5F7FD;
+.community6 {
+    margin-top:50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    color: #8588A3
+   
 }
-
-.community1 {
-    display: flex;
-    align-items: center;
-
-
-
-}
-
-  
-
-.Grocery {
-    display: flex;
-    align-items: center;
-  
-}
-
-
-.company {
-    display: flex;
-    align-items: center;
-
+.community7 {
+    margin-top:60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    color: #8588A3
 }
 
 .community2 {
-    margin-top: 90px;
+    margin-top: 60px;
 }
-.community3 {
-    margin-left: 60px;
-}
-.community6 {
-    margin-top: 90px;
-}
-.community7 {
-    margin-top: 90px;
-}
-.community4 {
-    margin-top: 80px;
-    margin-right: 110px;
+.community2 li {
+    padding-top:10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    color: #8588A3
 }
 
 .kkk {
-     margin-top: 70px; 
+    margin-bottom: 30px;
+
 }
+
 .kkk li {
-     padding-top: 10px; 
-}
-.community2 li {
     padding-top: 10px;
-}
-.community6 li{
-    padding-top: 10px;
-   margin-left: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    color: #8588A3
 }
 
+.com li {
+   padding-top: 10px;
+}
+
+.community6 li {
+    padding-top:10px;
+   
+}
 .community7 li {
-    margin-right: 20px;
-    padding-top: 10px;
+    padding-top:10px;
 }
- 
+.community4 li {
+    padding-top:10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    color: #8588A3
+}
 
-@media (max-width: 768px) {
+
+@media (max-width:768px) {
     .community {
         display: block;
-        font-size:30px;
-       
+        justify-content: space-between;
+        margin-left: 100px;
     }
     .footer-backgroud {
         background: none;
-       
-        border: none; 
-        margin-top: 400px;
-    }
-    .last {
-        margin-top: 60px;
-
     }
 
-    .Grocery {
-        margin-left: 40px;
+    .first h1 {
+       font-size: 110px;
     }
-
-    .company {
-
-        margin-left: 40px;
-    }
-    .kkk li {
-        padding-top: 20px; 
-   }
-   .community2 li {
-       padding-top: 20px;
-   }
-   .community4 li {
-       margin-left: 100px;
-   }
-   .community6 li{
-       padding-top: 25px;
-       padding-left: 100px;
-   }
-
-   .nit li {
-       margin-left: 100;
-   }
-   
-   .community7 li {
-       padding-top: 25px;
-   }
-
     
+    .last h1 {
+        font-size: 110px;
+    }
+
+    .kkk li {
+        font-size: 80px;
+    }
+    
+    .com li {
+      font-size: 80px;
+    }
+    
+    .community6 li {
+        font-size: 80px;
+        margin-left: 50px;
+       
+    }
+    .community7 li {
+        font-size: 80px;
+        padding-left: 250px;
+    }
+    .community4 li {
+        font-size: 80px;
+        padding-left: 220px;   
+    }
+    
+    
+    .community2 li {
+        font-size: 80px;
+        margin-left: 250px;
+    }
+
+    .flex-item2 {
+        width: 200px;
+    }
+
+    @media (max-width:411px) {
+       .community {
+           margin-right: 100px;
+       }
+
+
+        .first h1 {
+            font-size: 100px;
+         }
+         
+         .last h1 {
+             font-size:100px;
+         }
+     
+         .kkk li {
+             font-size: 60px;
+         }
+         
+         .com li {
+           font-size: 60px;
+         }
+         
+         .community6 li {
+             font-size: 60px;
+             margin-left: 30px;
+            
+         }
+         .community7 li {
+             font-size: 60px;
+             padding-left: 200px;
+         }
+         .community4 li {
+             font-size: 60px;
+             padding-left: 200px;   
+         }
+         
+         
+         .community2 li {
+             font-size: 60px;
+             margin-left: 200px;
+         }
+
+    }
+
+    @media (max-width:375px) {
+       .community {
+           margin-right: 100px;
+       }
+
+
+        .first h1 {
+            font-size: 90px;
+         }
+         
+         .last h1 {
+             font-size:90px;
+         }
+     
+         .kkk li {
+             font-size: 50px;
+            
+         }
+         .community3 {
+             margin-right: 30px;
+         }
+         
+         .com li {
+           font-size: 50px;
+           margin-left: 80px;
+         }
+         
+         .community6 li {
+             font-size: 50px;
+             /* margin-left: 30px; */
+            
+         }
+         .community7 li {
+             font-size: 50px;
+             /* padding-left: 200px; */
+         }
+         .community4 li {
+             font-size: 50px;
+             /* padding-left: 200px;    */
+         }
+         
+         
+         .community2 li {
+             font-size: 40px;
+             /* margin-left: 200px; */
+         }
+
+    }
+
+    @media (max-width:360px) {
+        .first h1 {
+            font-size: 90px;
+         }
+         
+         .last h1 {
+             font-size:90px;
+         }
+     
+         .kkk li {
+             font-size: 50px;
+            
+         }
+         .community3 {
+             margin-right: 30px;
+         }
+         
+         .com li {
+           font-size: 50px;
+           margin-left: 80px;
+         }
+         
+         .community6 li {
+             font-size: 50px;
+             /* margin-left: 30px; */
+            
+         }
+         .community7 li {
+             font-size: 50px;
+             /* padding-left: 200px; */
+         }
+         .community4 li {
+             font-size: 50px;
+             /* padding-left: 200px;    */
+         }
+         
+         
+         .community2 li {
+             font-size: 40px;
+             /* margin-left: 200px; */
+         }
+     
+
+
+    }
+    
+
 }

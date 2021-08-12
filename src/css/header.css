@@ -1,9 +1,9 @@
 .center {
     display: flex;
     list-style: none;
-    margin: 0 60px;
-    margin-top: 60px;
-    display: none;
+    /* margin: 0 60px; */
+    margin: 100px 0;
+    /* display: none; */
    
 }
 
@@ -14,6 +14,10 @@
 .center span {
     padding-left: 30px;
 }
+.category {
+    font-size: 30px;
+
+}
 
 .vegetables  {
     color: red;
@@ -23,7 +27,11 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     border-radius: 5px;
+    
 
+}
+.vegetables  {
+    font-size: 30px;
 }
 .spices:hover  {
     color: red;
@@ -34,7 +42,11 @@
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     border-radius: 5px;
     padding: 5px 5px;
+    
 
+}
+.spices {
+    font-size: 30px;
 }
 .fruits:hover {
     color: red;
@@ -43,10 +55,11 @@
     background: #FFFFFF;
     border-radius:5px;
     padding: 5px 5px;
-    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1)
-    
-   
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1)  
 
+}
+.fruits  {
+    font-size: 30px;
 }
 .tubers:hover {
     color: red;
@@ -56,7 +69,11 @@
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     padding: 5px 5px;
     border-radius: 5px;
+    
 
+}
+.tubers  {
+    font-size: 30px;
 }
 .palm :hover {
     color: red;
@@ -65,15 +82,86 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     padding: 20px 20px;
-    border-radius: 5px;
+    border-radius: 5px; 
 
 }
+.palm  {
+    font-size: 30px;
+}
 
-@media(max-width:720px) {
-    .center {
-        width: 100px;
+@media (max-width:768px) {
+     .center {
+         margin-top: 700px;
+         font-size: 100px;
+         overflow-x: scroll;
+         width: 1400px;
+         white-space: nowrap;
+         margin-left: 100px;
+     }
+
+    .category {
+        font-size: 140px;
+    
+    }.vegetables  {
+        font-size: 140px;
     }
-}
+
+    .tubers{
+     font-size: 140px;
+
+
+ }
+
+ .spices {
+     font-size: 140px;
+ }
+
+ .palm{
+     font-size: 140px;
+ }
+
+    @media (max-width:500px) {
+        .center {
+            margin-top: 800px;
+            font-size: 90px;
+            overflow-x: scroll;
+            width: 900px;
+            white-space: nowrap;
+            margin-left: 150px;
+        }
+   
+        .category {
+           font-size: 100px;
+       
+       }.vegetables  {
+           font-size: 100px;
+       }
+
+       .tubers{
+        font-size: 100px;
+   
+
+    }
+
+    .spices {
+        font-size: 100px;
+    }
+
+    .palm{
+        font-size: 100px;
+    }
+
+        
+
+    
+
+     
+    
+    
+    
+
+} 
+   
 
 
 
