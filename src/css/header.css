@@ -45,6 +45,38 @@
     
 
 }
+
+.category svg {
+    height: 20px;
+    width:20px;
+   
+} 
+.fruits svg {
+    width: 20px;
+    height: 20px;
+}
+
+.vegetables svg {
+    height: 20px;
+    width: 20px;
+}
+
+.tubers svg {
+    height: 20px;
+    width: 20px;
+}
+
+.spices svg {
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+.palm svg {
+    height: 20px;
+    width: 20px;
+}
 .spices {
     font-size: 30px;
 }
@@ -90,35 +122,72 @@
 }
 
 @media (max-width:768px) {
-     .center {
-         margin-top: 700px;
-         font-size: 100px;
-         overflow-x: scroll;
-         width: 1400px;
-         white-space: nowrap;
-         margin-left: 100px;
-     }
+    .center {
+    margin-top: 700px;
+    font-size: 100px;
+    overflow-x: scroll;
+    width: 1400px;
+    white-space: nowrap;
+    margin-left: 100px;
+    }
 
     .category {
         font-size: 140px;
+    } 
     
-    }.vegetables  {
+    .vegetables  {
         font-size: 140px;
     }
 
     .tubers{
      font-size: 140px;
+    }
+    .fruits {
+        font-size: 140px;
+    }
+
+    .spices{
+        font-size: 140px;
+    }
 
 
- }
-
- .spices {
+    .palm{
      font-size: 140px;
- }
+ 
+    }
+     /* header svg */
+    .category svg {
+        height: 100px;
+        width:100px;
+       
+    } 
+    .fruits svg {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .vegetables svg {
+        height: 100px;
+        width: 100px;
+    }
 
- .palm{
-     font-size: 140px;
- }
+    .tubers svg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .spices svg {
+        height: 100px;
+        width: 100px;
+        
+    }
+
+
+    .palm svg {
+        height: 100px;
+        width: 100px;
+    }
+ 
 
     @media (max-width:500px) {
         .center {
@@ -150,6 +219,39 @@
     .palm{
         font-size: 100px;
     }
+     /* header svg */
+     .category svg {
+        height: 100px;
+        width:100px;
+       
+    } 
+    .fruits svg {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .vegetables svg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .tubers svg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .spices svg {
+        height: 100px;
+        width: 100px;
+        
+    }
+
+
+    .palm svg {
+        height: 100px;
+        width: 100px;
+    }
+ 
 
         
 

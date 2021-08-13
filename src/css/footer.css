@@ -162,9 +162,12 @@
 
     @media (max-width:411px) {
        .community {
-           margin-right: 100px;
-       }
+           /* margin-right: 200px; */
+        }
 
+        .community3 {
+            margin-right: 100px;
+        }
 
         .first h1 {
             font-size: 100px;
@@ -266,33 +269,33 @@
              font-size: 50px;
             
          }
-         .community3 {
-             margin-right: 30px;
+         .community {
+             margin-left: 150px;
          }
          
          .com li {
-           font-size: 50px;
+           font-size: 40px;
            margin-left: 80px;
          }
          
          .community6 li {
-             font-size: 50px;
-             /* margin-left: 30px; */
+             font-size: 40px;
+             margin-right: 100px;
             
          }
          .community7 li {
-             font-size: 50px;
-             /* padding-left: 200px; */
+             font-size: 40px;
+             padding-left: 200px;
          }
          .community4 li {
-             font-size: 50px;
-             /* padding-left: 200px;    */
+             font-size: 40px;
+             margin-right: 100px;   
          }
          
          
          .community2 li {
              font-size: 40px;
-             /* margin-left: 200px; */
+            
          }
      
 

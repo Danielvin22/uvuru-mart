@@ -218,7 +218,7 @@
         .cards {
             width: 1400px;
             height: 1400px; 
-            margin-left: 150px;
+            margin-left:150px;
         }
         .card-img svg {
             width:1400px;
@@ -264,7 +264,7 @@
         }
     
         .mins svg {
-            left: 80px;
+            left: 70px;
             /* background: red; */
             width: 70px;
             padding-top: 40px;
@@ -385,20 +385,22 @@
             }
             .mins {
                position: relative;
-               height:30px ;
-               width: 3 00px;
-               top: -200px;
+               height:40px ;
+               width: 250px;
+               top: -700px;
             }
         
             .mins svg {
                 left:100px;
                 /* background: red; */
                 width: 30px;
-                margin-top: 5px;
+                top: -10px;
                
             }
         
             .mins p {
+                position: relative;
+              top:-10px;
             
             }
 

@@ -124,8 +124,9 @@
     }
 
     .vege {
-        font-size: 70px;
-        margin-left: 130px;
+        font-size: 90px;
+        margin-left: 200px;
+        margin-top: 10px;
     }
 
 
@@ -230,14 +231,16 @@
         .vege {
             font-size: 60px;
             margin-left:-150px;
-            /* margin-bottom: 100px; */
+            position: relative;
+            top: -10px;
+            
         }
         .local {
             font-size: 60px;
             margin-left: -150px;
             
             
-            /* padding-bottom: 50px; */
+            
         }  
 
     }
@@ -338,14 +341,20 @@
         .vege {
             font-size: 40px;
             margin-left:-100px;
-            /* margin-bottom: 100px; */
+            position: relative;
+            top: -25px;
+            
+            
         }
         .local {
             font-size: 40px;
             margin-left: -110px;
+            position: relative;
+            top: -25px;
             
             
-            /* padding-bottom: 50px; */
+            
+           
         }
     }
 
